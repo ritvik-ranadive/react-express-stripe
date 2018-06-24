@@ -5,6 +5,7 @@ import './App.css';
 
 class App extends Component {
   render() {
+    let amt = Math.random();
     return (
       <div className="App">
         <div className="App-header">
@@ -15,7 +16,7 @@ class App extends Component {
           <Checkout
             name={'The Road to learn React'}
             description={'Open Source React Book'}
-            amount={1}
+            amount={amt}
           />
         </p>
         <p>Found in <a href="https://roadtoreact.com/">the Road to learn React</a></p>
